@@ -1,0 +1,23 @@
+# Секреты: токены, пароли, ключи
+.env
+
+# Виртуальное окружение Python
+venv/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Файлы SQLite — пока не выкладываем
+*.db
+*.sqlite
+*.sqlite3
+
+# Настройки редакторов
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
