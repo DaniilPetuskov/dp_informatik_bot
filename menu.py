@@ -26,13 +26,13 @@ async def show_main_menu(message: Message):
 
         await message.answer_photo(
             photo=FSInputFile('data/Logo_dp_informatik_prob_Version777.png'),
-            caption="Твоя серия: {student.current_streak} 🔥",
+            caption=f"Твоя серия: {student.current_streak} 🔥",
             reply_markup=get_student_menu()
         )
 
     else:
         await message.answer_photo(photo=FSInputFile('data/Logo_dp_informatik_prob_Version777.png'),
-                                   text="Меню:",
+                                   caption="Меню:",
                                    reply_markup=get_guest_menu())
 
 
